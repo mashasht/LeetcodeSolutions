@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RemoveElement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2g9nkAMX5BJIb9sKgmLZeiTQ1wV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "JUnit.RemoveElementTest.executor": "Run",
+    "JUnit.RemoveElementTest.removeElementInPlace_eightElements_returnsSix.executor": "Debug",
+    "JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree.executor": "Run",
+    "JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsSix.executor": "Debug",
+    "JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsThree.executor": "Run",
+    "JUnit.RemoveElementTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
+    "JUnit.RemoveElementTest.testMultiply.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/mashashtutman/workspace/LeetcodeSolutions/src/main/java/org/leetcode/solutions/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree">
+    <configuration name="RemoveElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElementTest.removeElementInPlace_firstElements_returnsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
+      <option name="METHOD_NAME" value="removeElementInPlace_firstElements_returnsThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElementTest.removeElementInPlace_lastElements_returnsSix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
+      <option name="METHOD_NAME" value="removeElementInPlace_lastElements_returnsSix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElementTest.removeElementInPlace_lastElements_returnsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
+      <option name="METHOD_NAME" value="removeElementInPlace_lastElements_returnsThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElementTest.removeElementInPlace_twoElements_returnsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
+      <option name="METHOD_NAME" value="removeElementInPlace_twoElements_returnsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree" />
+        <item itemvalue="JUnit.RemoveElementTest" />
+        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsThree" />
+        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsSix" />
+        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_twoElements_returnsOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="" />
+      <created>1715118801694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715118801694</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/RemoveElementTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RemoveElement.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
