@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/FindIndexOfFirstOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FindIndexOfFirstOccurenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/leetcode/solutions/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/leetcode/solutions/RemoveElement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2g9nkAMX5BJIb9sKgmLZeiTQ1wV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,6 +40,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
+    "JUnit.FindIndexOfFirstOccurenceTest.executor": "Run",
+    "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
+    "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst.executor": "Run",
+    "JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
     "JUnit.RemoveElementTest.executor": "Run",
     "JUnit.RemoveElementTest.removeElementInPlace_eightElements_returnsSix.executor": "Debug",
     "JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree.executor": "Run",
@@ -48,10 +55,52 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/mashashtutman/workspace/LeetcodeSolutions/src/main/java/org/leetcode/solutions/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree">
+  <component name="RunManager" selected="JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone">
+    <configuration name="FindIndexOfFirstOccurenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindIndexOfFirstOccurenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindIndexOfFirstOccurenceTest" />
+      <option name="METHOD_NAME" value="findFirstIndex_noOccurences_returnsNone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindIndexOfFirstOccurenceTest" />
+      <option name="METHOD_NAME" value="findFirstIndex_twoOccurences_returnsFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindIndexOfFirstOccurenceTest" />
+      <option name="METHOD_NAME" value="removeElementInPlace_twoElements_returnsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,53 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElementTest.removeElementInPlace_firstElements_returnsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
-      <option name="METHOD_NAME" value="removeElementInPlace_firstElements_returnsThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElementTest.removeElementInPlace_lastElements_returnsSix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
-      <option name="METHOD_NAME" value="removeElementInPlace_lastElements_returnsSix" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElementTest.removeElementInPlace_lastElements_returnsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
-      <option name="METHOD_NAME" value="removeElementInPlace_lastElements_returnsThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElementTest.removeElementInPlace_twoElements_returnsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveElementTest" />
-      <option name="METHOD_NAME" value="removeElementInPlace_twoElements_returnsOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree" />
+        <item itemvalue="JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone" />
+        <item itemvalue="JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst" />
+        <item itemvalue="JUnit.FindIndexOfFirstOccurenceTest" />
+        <item itemvalue="JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne" />
         <item itemvalue="JUnit.RemoveElementTest" />
-        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsThree" />
-        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsSix" />
-        <item itemvalue="JUnit.RemoveElementTest.removeElementInPlace_twoElements_returnsOne" />
       </list>
     </recent_temporary>
   </component>
