@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchInsertPositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LengthOfTheLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LengthOfTheLastWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlusOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SquareRootTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +51,20 @@
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
+    "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsFive.executor": "Run",
+    "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsFour.executor": "Run",
+    "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsSix.executor": "Run",
+    "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsZero.executor": "Run",
+    "JUnit.ListNodeTest.deleteDuplicates_oneDuplicate_returnsOneElements.executor": "Run",
+    "JUnit.ListNodeTest.deleteDuplicates_twoDuplicate_returnsThreeElements.executor": "Run",
+    "JUnit.ListNodeTest.hasCycle_twoElements_returnsFalse.executor": "Run",
+    "JUnit.ListNodeTest.hasCycle_twoElements_returnsTrue.executor": "Run",
+    "JUnit.ListNodeTest.hasIntersection_eightNodes_returnsTrue.executor": "Run",
+    "JUnit.ListNodeTest.plusOne_threeElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.PusOneTest.plusOne_fourElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.PusOneTest.plusOne_oneElement_returnsTwoElements.executor": "Run",
+    "JUnit.PusOneTest.plusOne_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.PusOneTest.plusOne_threeElements_returnsFourElements.executor": "Run",
     "JUnit.RemoveElementTest.executor": "Run",
     "JUnit.RemoveElementTest.removeElementInPlace_eightElements_returnsSix.executor": "Debug",
     "JUnit.RemoveElementTest.removeElementInPlace_firstElements_returnsThree.executor": "Run",
@@ -55,6 +77,16 @@
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastPlusOneIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberExists_returnsIndex.executor": "Run",
+    "JUnit.SquareRootTest.executor": "Run",
+    "JUnit.SquareRootTest.squareRoot_eight_returnsTwo.executor": "Debug",
+    "JUnit.SquareRootTest.squareRoot_four_returnsTwo.executor": "Run",
+    "JUnit.SquareRootTest.squareRoot_one_returnsOne.executor": "Run",
+    "JUnit.SquareRootTest.squareRoot_zero_returnsOne.executor": "Debug",
+    "JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure.executor": "Run",
+    "JUnit.TreeNodeTest.sameTree_twoNodes_sameStructure.executor": "Run",
+    "JUnit.TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements.executor": "Run",
+    "JUnit.TreeNodeTest.visitInorder_threeNodes_returnsThreeElements.executor": "Run",
+    "JUnit.TreeNodeTest.visitInorder_twoNodes_returnsTwoElements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -65,51 +97,52 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SearchInsertPositionTest">
-    <configuration name="SearchInsertPositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure">
+    <configuration name="TreeNodeTest.sameTree_twoNodes_differentStructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInsertPositionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInsertPositionTest" />
-      <option name="METHOD_NAME" value="searchInsertPosition_numberDoesntExist_returnsIndex" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="sameTree_twoNodes_differentStructure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.sameTree_twoNodes_sameStructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInsertPositionTest" />
-      <option name="METHOD_NAME" value="searchInsertPosition_numberDoesntExist_returnsLastIndex" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="sameTree_twoNodes_sameStructure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastPlusOneIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInsertPositionTest" />
-      <option name="METHOD_NAME" value="searchInsertPosition_numberDoesntExist_returnsLastPlusOneIndex" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="visitInorder_fiveNodes_returnsFiveElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPositionTest.searchInsertPosition_numberExists_returnsIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.visitInorder_threeNodes_returnsThreeElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInsertPositionTest" />
-      <option name="METHOD_NAME" value="searchInsertPosition_numberExists_returnsIndex" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="visitInorder_threeNodes_returnsThreeElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeNodeTest.visitInorder_twoNodes_returnsTwoElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="visitInorder_twoNodes_returnsTwoElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchInsertPositionTest" />
-        <item itemvalue="JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastPlusOneIndex" />
-        <item itemvalue="JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsIndex" />
-        <item itemvalue="JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastIndex" />
-        <item itemvalue="JUnit.SearchInsertPositionTest.searchInsertPosition_numberExists_returnsIndex" />
+        <item itemvalue="JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure" />
+        <item itemvalue="JUnit.TreeNodeTest.sameTree_twoNodes_sameStructure" />
+        <item itemvalue="JUnit.TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements" />
+        <item itemvalue="JUnit.TreeNodeTest.visitInorder_threeNodes_returnsThreeElements" />
+        <item itemvalue="JUnit.TreeNodeTest.visitInorder_twoNodes_returnsTwoElements" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +189,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SearchInsertPosition.java</url>
           <line>6</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LengthOfTheLastWordTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SquareRoot.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
