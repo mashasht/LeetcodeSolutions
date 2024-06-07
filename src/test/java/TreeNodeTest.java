@@ -68,4 +68,29 @@ public class TreeNodeTest {
         rootSecond.left = new TreeNode(1);
         assertFalse(treeNode.isSameTree(rootFirst, rootSecond));
     }
+
+    @Test
+    void isSymmetric_nineNodes(){
+        TreeNode root = new TreeNode(1);
+        root.right = new TreeNode(2);
+        root.left = new TreeNode(2);
+        root.right.right = new TreeNode(3);
+        root.right.left = new TreeNode(4);
+        root.left.right = new TreeNode(4);
+        root.left.left = new TreeNode(3);
+        assertTrue(treeNode.isSymmetric(root));
+    }
+
+    @Test
+    void maxDepth_nineNodes(){
+        TreeNode root = new TreeNode(1);
+        root.right = new TreeNode(2);
+        root.left = new TreeNode(2);
+        root.right.right = new TreeNode(3);
+        root.right.left = new TreeNode(4);
+        root.left.right = new TreeNode(4);
+        root.left.left = new TreeNode(3);
+        assertEquals(3, treeNode.maxDepth(root));
+    }
+
 }

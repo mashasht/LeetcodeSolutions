@@ -5,17 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LengthOfTheLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LengthOfTheLastWordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlusOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SquareRootTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ArrayJumps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/JumpGameII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AddBinaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArrayJumpsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClimbingStairsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JumpGameIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JumpGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestPalindromicSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MaxSubArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MergeSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UniquePathsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +62,30 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
+    "JUnit.AddBinaryTest.addBinary_fivePlusOne.executor": "Run",
+    "JUnit.AddBinaryTest.addBinary_threePlusOne.executor": "Run",
+    "JUnit.AddBinaryTest.executor": "Run",
+    "JUnit.ArrayJumpsTest.hasSolutions_hasSolution_returnsTrue.executor": "Run",
+    "JUnit.ArrayJumpsTest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
+    "JUnit.ClimbingStairsTest.climbStairs_threeWays.executor": "Run",
+    "JUnit.ClimbingStairsTest.climbStairs_twoWays.executor": "Run",
+    "JUnit.ClimbingStairsTest.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
+    "JUnit.JumpGameIITest.executor": "Run",
+    "JUnit.JumpGameIITest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
+    "JUnit.JumpGameIITest.jump__returnsOneJump.executor": "Debug",
+    "JUnit.JumpGameIITest.jump__returnsTwoJumps2.executor": "Run",
+    "JUnit.JumpGameIITest.jump_returnsOneJump.executor": "Debug",
+    "JUnit.JumpGameIITest.jump_returnsTwoJumps1.executor": "Run",
+    "JUnit.JumpGameIITest.jump_returnsTwoJumps2.executor": "Run",
+    "JUnit.JumpGameIITest.jump_returnsTwoJumps3.executor": "Run",
+    "JUnit.JumpGameTest.canJump_hasNoSolution.executor": "Run",
+    "JUnit.JumpGameTest.canJump_hasSolution.executor": "Run",
+    "JUnit.JumpGameTest.canJump_hasSolution2.executor": "Run",
+    "JUnit.JumpGameTest.executor": "Run",
     "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsFive.executor": "Run",
     "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsFour.executor": "Run",
     "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsSix.executor": "Run",
@@ -61,6 +96,16 @@
     "JUnit.ListNodeTest.hasCycle_twoElements_returnsTrue.executor": "Run",
     "JUnit.ListNodeTest.hasIntersection_eightNodes_returnsTrue.executor": "Run",
     "JUnit.ListNodeTest.plusOne_threeElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_nineChars_returnsSevenChars.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_oneChar_returnsOneChars.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_sevenChars_returnsSevenChars.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeChars_returnsThreeChars.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeChars_returnsTwoChars.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.MaxSubArrayTest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
+    "JUnit.MaxSubArrayTest.maxSubArray_hasNegativeSubarray_returnsSum.executor": "Run",
+    "JUnit.MergeSortedArrayTest.merge_OneToSix.executor": "Run",
     "JUnit.PusOneTest.plusOne_fourElements_returnsSameArrayPlusOne.executor": "Run",
     "JUnit.PusOneTest.plusOne_oneElement_returnsTwoElements.executor": "Run",
     "JUnit.PusOneTest.plusOne_returnsSameArrayPlusOne.executor": "Run",
@@ -82,12 +127,20 @@
     "JUnit.SquareRootTest.squareRoot_four_returnsTwo.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_one_returnsOne.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_zero_returnsOne.executor": "Debug",
+    "JUnit.TreeNodeTest.executor": "Run",
+    "JUnit.TreeNodeTest.isSymmetric_nineNodes.executor": "Run",
+    "JUnit.TreeNodeTest.maxDepth_nineNodes.executor": "Run",
     "JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure.executor": "Run",
     "JUnit.TreeNodeTest.sameTree_twoNodes_sameStructure.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_threeNodes_returnsThreeElements.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_twoNodes_returnsTwoElements.executor": "Run",
+    "JUnit.UniquePathsTest.executor": "Run",
+    "JUnit.UniquePathsTest.uniquePaths_returns.executor": "Run",
+    "JUnit.UniquePathsTest.uniquePaths_returnsThree.executor": "Run",
+    "JUnit.UniquePathsTest.uniquePaths_returnsTwentyEight.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/mashashtutman/workspace/LeetcodeSolutions/src/main/java/org/leetcode/solutions/Main.java",
@@ -97,52 +150,51 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure">
-    <configuration name="TreeNodeTest.sameTree_twoNodes_differentStructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TreeNodeTest.maxDepth_nineNodes">
+    <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="sameTree_twoNodes_differentStructure" />
+      <option name="MAIN_CLASS_NAME" value="ClimbingStairsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairsTest.climbStairs_threeWays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClimbingStairsTest" />
+      <option name="METHOD_NAME" value="climbStairs_threeWays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNodeTest.sameTree_twoNodes_sameStructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortedArrayTest.merge_OneToSix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="sameTree_twoNodes_sameStructure" />
+      <option name="MAIN_CLASS_NAME" value="MergeSortedArrayTest" />
+      <option name="METHOD_NAME" value="merge_OneToSix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.isSymmetric_nineNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="visitInorder_fiveNodes_returnsFiveElements" />
+      <option name="METHOD_NAME" value="isSymmetric_nineNodes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNodeTest.visitInorder_threeNodes_returnsThreeElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.maxDepth_nineNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="visitInorder_threeNodes_returnsThreeElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeNodeTest.visitInorder_twoNodes_returnsTwoElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="visitInorder_twoNodes_returnsTwoElements" />
+      <option name="METHOD_NAME" value="maxDepth_nineNodes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure" />
-        <item itemvalue="JUnit.TreeNodeTest.sameTree_twoNodes_sameStructure" />
-        <item itemvalue="JUnit.TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements" />
-        <item itemvalue="JUnit.TreeNodeTest.visitInorder_threeNodes_returnsThreeElements" />
-        <item itemvalue="JUnit.TreeNodeTest.visitInorder_twoNodes_returnsTwoElements" />
+        <item itemvalue="JUnit.TreeNodeTest.maxDepth_nineNodes" />
+        <item itemvalue="JUnit.TreeNodeTest.isSymmetric_nineNodes" />
+        <item itemvalue="JUnit.MergeSortedArrayTest.merge_OneToSix" />
+        <item itemvalue="JUnit.ClimbingStairsTest" />
+        <item itemvalue="JUnit.ClimbingStairsTest.climbStairs_threeWays" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +256,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
           <line>46</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestPalindromicSubstring.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/JumpGameII.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/AddBinary.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -16,25 +16,98 @@ public class TreeNode {
         this.right = right;
     }
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        List<TreeNode> pNodes = visitInorder(p);
-        List<TreeNode> qNodes = visitInorder(q);
-        if (pNodes.size() != qNodes.size()) {
+        if (p == null) {
+            return q == null;
+        }
+        if (q == null) {
             return false;
         }
-        for (int i = 0; i < pNodes.size(); i++) {
-            if (pNodes.get(i).val != qNodes.get(i).val) {
-                return false;
-            }
-            if (pNodes.get(i).left == null && qNodes.get(i).left != null ||
-                    pNodes.get(i).left != null && qNodes.get(i).left == null) {
-                return false;
-            }
-            if (pNodes.get(i).right == null && qNodes.get(i).right != null ||
-                    pNodes.get(i).right != null && qNodes.get(i).right == null) {
-                return false;
-            }
+       if (p.val != q.val) {
+           return false;
+       }
+       return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    }
+
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
         }
-        return true;
+        int maxDepth = Math.max(maxDepth(root.left), maxDepth(root.right));
+        return maxDepth + 1;
+    }
+
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        return isMirror(root.left, root.right);
+    }
+
+    public boolean isBalanced(TreeNode root) {
+        return returnHeight(root) > 0;
+    }
+
+    private int returnHeight(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        if (root.left == null && root.right == null) {
+            return 1;
+        }
+        int rightHeight = returnHeight(root.right);
+        int leftHeight = returnHeight(root.left);
+        if (rightHeight == -1 || leftHeight == -1) {
+            return -1;
+        }
+        if (Math.abs(rightHeight - leftHeight) > 1) {
+            return -1;
+        }
+        return Math.max(rightHeight, leftHeight) + 1;
+    }
+
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+        if (root == null) {
+            return false;
+        }
+        if (root.left == null && root.right == null) {
+            return root.val == targetSum;
+        }
+        boolean leftResult = false;
+        boolean rightResult = false;
+        if (root.left != null) {
+            leftResult = hasPathSum(root.left, targetSum - root.val);
+        }
+        if (root.right != null) {
+            rightResult = hasPathSum(root.right, targetSum - root.val);
+        }
+        return leftResult || rightResult;
+    }
+
+    public TreeNode sortedArrayToBST(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(nums[nums.length/2]);
+        int[] leftTree = new int[nums.length/2];
+        int[] rightTree = new int[nums.length - nums.length/2 - 1];
+        System.arraycopy( nums, 0, leftTree, 0, nums.length/2);
+        System.arraycopy( nums, nums.length/2 + 1, rightTree, 0, nums.length - nums.length/2 - 1);
+        root.left = sortedArrayToBST(leftTree);
+        root.right = sortedArrayToBST(rightTree);
+        return root;
+    }
+
+    private boolean isMirror(TreeNode left, TreeNode right) {
+        if (left == null && right == null) {
+            return true;
+        }
+        if (right == null || left == null) {
+            return false;
+        }
+        if (right.val != left.val) {
+            return false;
+        }
+        return isMirror(left.left, right.right) && isMirror(left.right, right.left);
     }
     public List<TreeNode> visitInorder(TreeNode root) {
         TreeNode current = root;
