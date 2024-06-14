@@ -1,5 +1,7 @@
 package org.leetcode.solutions;
 
+import java.util.Stack;
+
 public class ListNode {
     public int val;
     public ListNode next;
@@ -75,6 +77,64 @@ public class ListNode {
             currentB = currentB.next;
         }
         return null;
+    }
+    public ListNode removeElements(ListNode head, int val) {
+        while (head != null && head.val == val) {
+            head = head.next;
+        }
+        if (head == null) {
+            return null;
+        }
+        ListNode previous = head;
+        ListNode current = head.next;
+        while (current != null) {
+            if (current.val == val) {
+                previous.next = current.next;
+                current = current.next;
+            }
+            else {
+                previous = current;
+                current = current.next;
+            }
+        }
+        return head;
+    }
+// TODO: review
+    public ListNode reverseList(ListNode head) {
+        ListNode previous = null;
+        while (head != null) {
+            ListNode temp = head.next;
+            head.next = previous;
+            previous = head;
+            head = temp;
+        }
+
+        return previous;
+    }
+
+    public boolean isPalindrome(ListNode head) {
+        int nodeCount = 0;
+        ListNode current = head;
+        while (current != null) {
+            nodeCount++;
+            current = current.next;
+        }
+        current = head;
+        Stack<Integer> nodes = new Stack<>();
+        for (int i = 0; i < nodeCount; i++) {
+            if (i < nodeCount/2) {
+                nodes.push(current.val);
+            }
+            else {
+                if (nodeCount % 2 != 1 || i != nodeCount/2) {
+                    if (nodes.pop() != current.val) {
+                        return false;
+                    }
+                }
+            }
+            current = current.next;
+        }
+        return true;
     }
 }
 

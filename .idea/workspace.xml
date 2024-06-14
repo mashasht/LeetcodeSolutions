@@ -5,31 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ArrayJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/JumpGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PascalsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddBinaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ArrayJumpsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClimbingStairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JumpGameIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JumpGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LongestPalindromicSubstringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MaxSubArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MergeSortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UniquePathsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/AddDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/BuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ExcelTitleToNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/FlipGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/GuessNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IntersectionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsPerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MeetingRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MissingRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MovingAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/NimGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PalindromePermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PowerOfThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReplaceWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReverseVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ShortestWordDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/StrobogrammaticNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SubstringsThatBeginAndEndWithTheSameLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidPalindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/isUglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AddDigitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BuyAndSellStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelTitleToNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlipGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GuessNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IsPerfectSquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IsomorphicStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestCommonSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MeetingRoomsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MissingNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MissingRangesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MoveZeroesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NimGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PowerOfThreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReplaceWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShortestWordDistanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SingleNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SubstringsThatBeginAndEndWithTheSameLetterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidPalindromTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,15 +98,32 @@
     "JUnit.AddBinaryTest.addBinary_fivePlusOne.executor": "Run",
     "JUnit.AddBinaryTest.addBinary_threePlusOne.executor": "Run",
     "JUnit.AddBinaryTest.executor": "Run",
+    "JUnit.AddDigitsTest.addDigits_38.executor": "Run",
     "JUnit.ArrayJumpsTest.hasSolutions_hasSolution_returnsTrue.executor": "Run",
     "JUnit.ArrayJumpsTest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
+    "JUnit.BuyAndSellStockTest.buyAndSellStock_maxProfitFive.executor": "Run",
     "JUnit.ClimbingStairsTest.climbStairs_threeWays.executor": "Run",
     "JUnit.ClimbingStairsTest.climbStairs_twoWays.executor": "Run",
     "JUnit.ClimbingStairsTest.executor": "Run",
+    "JUnit.ExcelTitleToNumberTest.titleToNumber_AB.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
+    "JUnit.GuessNumberTest.executor": "Run",
+    "JUnit.GuessNumberTest.guessNumber_pick2_n2.executor": "Debug",
+    "JUnit.GuessNumberTest.guessNumber_pick6_n10.executor": "Run",
+    "JUnit.IsPerfectSquareTest.executor": "Run",
+    "JUnit.IsPerfectSquareTest.isPerfectSquare_five_false.executor": "Run",
+    "JUnit.IsPerfectSquareTest.isPerfectSquare_hundred_true.executor": "Debug",
+    "JUnit.IsPerfectSquareTest.isPerfectSquare_nine_true.executor": "Run",
+    "JUnit.IsPerfectSquareTest.isPerfectSquare_seventySix_false.executor": "Debug",
+    "JUnit.IsPerfectSquareTest.isPerfectSquare_sixteen_true.executor": "Run",
+    "JUnit.IsomorphicStringsTest.executor": "Run",
+    "JUnit.IsomorphicStringsTest.isIsomorphic_aaeaa_uuxyy.executor": "Debug",
+    "JUnit.IsomorphicStringsTest.isIsomorphic_badcbaba.executor": "Debug",
+    "JUnit.IsomorphicStringsTest.isIsomorphic_egg_add.executor": "Debug",
+    "JUnit.IsomorphicStringsTest.isIsomorphic_sameLength_notIsomorphic.executor": "Run",
     "JUnit.JumpGameIITest.executor": "Run",
     "JUnit.JumpGameIITest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
     "JUnit.JumpGameIITest.jump__returnsOneJump.executor": "Debug",
@@ -95,7 +145,16 @@
     "JUnit.ListNodeTest.hasCycle_twoElements_returnsFalse.executor": "Run",
     "JUnit.ListNodeTest.hasCycle_twoElements_returnsTrue.executor": "Run",
     "JUnit.ListNodeTest.hasIntersection_eightNodes_returnsTrue.executor": "Run",
+    "JUnit.ListNodeTest.isPalindrome_returnsFalse.executor": "Run",
+    "JUnit.ListNodeTest.isPalindrome_returnsTrue.executor": "Run",
     "JUnit.ListNodeTest.plusOne_threeElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.ListNodeTest.reverseList_returnsReversedList.executor": "Run",
+    "JUnit.LoggerTest.printSomeMessages.executor": "Run",
+    "JUnit.LongestCommonSubsequenceTest.executor": "Run",
+    "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_manyArrays_threeCommon.executor": "Run",
+    "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_threeArrays_threeCommon.executor": "Run",
+    "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_twoArrays_noneCommon.executor": "Debug",
+    "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_twoArrays_twoCommon.executor": "Run",
     "JUnit.LongestPalindromicSubstringTest.executor": "Run",
     "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_nineChars_returnsSevenChars.executor": "Run",
     "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_oneChar_returnsOneChars.executor": "Run",
@@ -105,7 +164,17 @@
     "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeElements_returnsSameArrayPlusOne.executor": "Run",
     "JUnit.MaxSubArrayTest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
     "JUnit.MaxSubArrayTest.maxSubArray_hasNegativeSubarray_returnsSum.executor": "Run",
+    "JUnit.MeetingRoomsTest.canAttendMeetings_twoMeetings_true.executor": "Debug",
     "JUnit.MergeSortedArrayTest.merge_OneToSix.executor": "Run",
+    "JUnit.MissingNumberTest.missingNumber_three_twoMissing.executor": "Run",
+    "JUnit.MissingRangesTest.findMissingRanges_returnsFourRanges.executor": "Run",
+    "JUnit.MoveZeroesTest.moveZeroes_fiveElements_twoZeros.executor": "Run",
+    "JUnit.NimGameTest.canWin_Eight_False.executor": "Debug",
+    "JUnit.NimGameTest.canWin_Five_True.executor": "Run",
+    "JUnit.NimGameTest.canWin_Four_True.executor": "Run",
+    "JUnit.NimGameTest.executor": "Run",
+    "JUnit.PowerOfThreeTest.isPowerOfThree_negative_false.executor": "Debug",
+    "JUnit.PowerOfThreeTest.isPowerOfThree_twentyseven_true.executor": "Run",
     "JUnit.PusOneTest.plusOne_fourElements_returnsSameArrayPlusOne.executor": "Run",
     "JUnit.PusOneTest.plusOne_oneElement_returnsTwoElements.executor": "Run",
     "JUnit.PusOneTest.plusOne_returnsSameArrayPlusOne.executor": "Run",
@@ -117,19 +186,26 @@
     "JUnit.RemoveElementTest.removeElementInPlace_lastElements_returnsThree.executor": "Run",
     "JUnit.RemoveElementTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
     "JUnit.RemoveElementTest.testMultiply.executor": "Run",
+    "JUnit.ReplaceWordsTest.replaceWords_cattle.executor": "Run",
     "JUnit.SearchInsertPositionTest.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastPlusOneIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberExists_returnsIndex.executor": "Run",
+    "JUnit.ShortestWordDistanceTest.shortestDistance_codingPractice.executor": "Run",
+    "JUnit.SingleNumberTest.singleNumber_returnFour.executor": "Run",
     "JUnit.SquareRootTest.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_eight_returnsTwo.executor": "Debug",
     "JUnit.SquareRootTest.squareRoot_four_returnsTwo.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_one_returnsOne.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_zero_returnsOne.executor": "Debug",
+    "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.executor": "Run",
+    "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.numberOfSubstrings_nine.executor": "Run",
+    "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.numberOfSubstrings_seven.executor": "Run",
     "JUnit.TreeNodeTest.executor": "Run",
     "JUnit.TreeNodeTest.isSymmetric_nineNodes.executor": "Run",
     "JUnit.TreeNodeTest.maxDepth_nineNodes.executor": "Run",
+    "JUnit.TreeNodeTest.minDepth_five.executor": "Run",
     "JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure.executor": "Run",
     "JUnit.TreeNodeTest.sameTree_twoNodes_sameStructure.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements.executor": "Run",
@@ -139,6 +215,9 @@
     "JUnit.UniquePathsTest.uniquePaths_returns.executor": "Run",
     "JUnit.UniquePathsTest.uniquePaths_returnsThree.executor": "Run",
     "JUnit.UniquePathsTest.uniquePaths_returnsTwentyEight.executor": "Run",
+    "JUnit.ValidPalindromTest.isPalindrom_empty_positive.executor": "Run",
+    "JUnit.ValidPalindromTest.isPalindrom_panama_positive.executor": "Run",
+    "JUnit.ValidPalindromTest.isPalindrom_race_negative.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -150,51 +229,50 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TreeNodeTest.maxDepth_nineNodes">
-    <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GuessNumberTest">
+    <configuration name="GuessNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClimbingStairsTest" />
+      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairsTest.climbStairs_threeWays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuessNumberTest.guessNumber_pick2_n2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClimbingStairsTest" />
-      <option name="METHOD_NAME" value="climbStairs_threeWays" />
+      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
+      <option name="METHOD_NAME" value="guessNumber_pick2_n2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArrayTest.merge_OneToSix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuessNumberTest.guessNumber_pick6_n10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArrayTest" />
-      <option name="METHOD_NAME" value="merge_OneToSix" />
+      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
+      <option name="METHOD_NAME" value="guessNumber_pick6_n10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNodeTest.isSymmetric_nineNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsPerfectSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="isSymmetric_nineNodes" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="IsPerfectSquareTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNodeTest.maxDepth_nineNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsPerfectSquareTest.isPerfectSquare_seventySix_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
-      <option name="METHOD_NAME" value="maxDepth_nineNodes" />
+      <option name="MAIN_CLASS_NAME" value="IsPerfectSquareTest" />
+      <option name="METHOD_NAME" value="isPerfectSquare_seventySix_false" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeNodeTest.maxDepth_nineNodes" />
-        <item itemvalue="JUnit.TreeNodeTest.isSymmetric_nineNodes" />
-        <item itemvalue="JUnit.MergeSortedArrayTest.merge_OneToSix" />
-        <item itemvalue="JUnit.ClimbingStairsTest" />
-        <item itemvalue="JUnit.ClimbingStairsTest.climbStairs_threeWays" />
+        <item itemvalue="JUnit.GuessNumberTest" />
+        <item itemvalue="JUnit.GuessNumberTest.guessNumber_pick2_n2" />
+        <item itemvalue="JUnit.GuessNumberTest.guessNumber_pick6_n10" />
+        <item itemvalue="JUnit.IsPerfectSquareTest.isPerfectSquare_seventySix_false" />
+        <item itemvalue="JUnit.IsPerfectSquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +332,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
-          <line>46</line>
+          <line>48</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -271,6 +349,69 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/AddBinary.java</url>
           <line>7</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReplaceWords.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MissingRanges.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ExcelTitleToNumber.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ListNodeTest.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestCommonSubsequence.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MeetingRooms.java</url>
+          <line>7</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MissingNumber.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MoveZeroes.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PowerOfThree.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/Logger.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsPerfectSquare.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

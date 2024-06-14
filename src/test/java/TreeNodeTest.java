@@ -93,4 +93,14 @@ public class TreeNodeTest {
         assertEquals(3, treeNode.maxDepth(root));
     }
 
+    @Test
+    void minDepth_five(){
+        TreeNode root = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.right.right = new TreeNode(4);
+        root.right.right.right = new TreeNode(5);
+        root.right.right.right.right = new TreeNode(6);
+        assertEquals(5, treeNode.minDepth(root));
+    }
+
 }

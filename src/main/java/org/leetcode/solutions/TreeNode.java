@@ -1,6 +1,7 @@
 package org.leetcode.solutions;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -123,5 +124,58 @@ public class TreeNode {
             current = current.right;
         }
         return visited;
+    }
+
+    public int minDepth(TreeNode root) {
+        int leftDepth = Integer.MAX_VALUE;
+        int rightDepth = Integer.MAX_VALUE;
+        if (root == null) {
+            return 0;
+        }
+        if (root.right == null && root.left == null) {
+            return 1;
+        }
+        if (root.left != null) {
+            leftDepth = minDepth(root.left);
+        }
+        if (root.right != null) {
+            rightDepth = minDepth(root.right);
+        }
+        return Math.min(leftDepth, rightDepth) + 1;
+    }
+
+    public TreeNode invertTree(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+        TreeNode temp = root.right;
+        if (root.left != null) {
+            root.right = invertTree(root.left);
+        }
+        if (temp != null) {
+            root.left = invertTree(temp);
+        }
+        return root;
+    }
+
+    public int closestValue(TreeNode root, double target) {
+        if (root == null) {
+            return 0;
+        }
+        double diff = Math.abs(target - root.val);
+        int closest = root.val;
+        do {
+            if (Math.abs(target - root.val) < diff) {
+                diff = Math.abs(target - root.val);
+                closest = root.val;
+            }
+            if (target < root.val) {
+                root = root.left;
+            }
+            else {
+                root = root.right;
+            }
+        } while (root != null);
+        return closest;
     }
 }
