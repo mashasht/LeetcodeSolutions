@@ -5,20 +5,29 @@ import java.util.Stack;
 public class ListNode {
     public int val;
     public ListNode next;
-    public ListNode() {}
-    public ListNode(int val) { this.val = val; }
-    public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+    public ListNode() {
+    }
+
+    public ListNode(int val) {
+        this.val = val;
+    }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
         ListNode current = head.next;
         ListNode previous = head;
-        while(current != null) {
+        while (current != null) {
             if (current.val == previous.val) {
                 previous.next = current.next;
-            }
-            else {
+            } else {
                 previous = current;
             }
             current = current.next;
@@ -32,7 +41,7 @@ public class ListNode {
         }
         ListNode oneStep = head;
         ListNode doubleStep = head.next.next;
-        while(doubleStep != null) {
+        while (doubleStep != null) {
             if (doubleStep == oneStep) {
                 return true;
             }
@@ -53,11 +62,11 @@ public class ListNode {
         ListNode currentB = headB;
         int lengthA = 0;
         int lengthB = 0;
-        while(currentA != null) {
+        while (currentA != null) {
             lengthA++;
             currentA = currentA.next;
         }
-        while(currentB != null) {
+        while (currentB != null) {
             lengthB++;
             currentB = currentB.next;
         }
@@ -69,7 +78,7 @@ public class ListNode {
         for (int i = 0; i < lengthB - lengthA; i++) {
             currentB = currentB.next;
         }
-        while(currentA != null && currentB != null) {
+        while (currentA != null && currentB != null) {
             if (currentA == currentB) {
                 return currentA;
             }
@@ -78,6 +87,7 @@ public class ListNode {
         }
         return null;
     }
+
     public ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val) {
             head = head.next;
@@ -91,15 +101,15 @@ public class ListNode {
             if (current.val == val) {
                 previous.next = current.next;
                 current = current.next;
-            }
-            else {
+            } else {
                 previous = current;
                 current = current.next;
             }
         }
         return head;
     }
-// TODO: review
+
+    // TODO: review
     public ListNode reverseList(ListNode head) {
         ListNode previous = null;
         while (head != null) {
@@ -122,11 +132,10 @@ public class ListNode {
         current = head;
         Stack<Integer> nodes = new Stack<>();
         for (int i = 0; i < nodeCount; i++) {
-            if (i < nodeCount/2) {
+            if (i < nodeCount / 2) {
                 nodes.push(current.val);
-            }
-            else {
-                if (nodeCount % 2 != 1 || i != nodeCount/2) {
+            } else {
+                if (nodeCount % 2 != 1 || i != nodeCount / 2) {
                     if (nodes.pop() != current.val) {
                         return false;
                     }
@@ -135,6 +144,35 @@ public class ListNode {
             current = current.next;
         }
         return true;
+    }
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        if (l1 == null && l2 == null) {
+            return null;
+        }
+        ListNode previous = null;
+        ListNode current = new ListNode();
+        ListNode root = current;
+        int sum = 0;
+        while (l1 != null || l2 != null || sum != 0) {
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            current.val = sum % 10;
+            sum = sum / 10;
+            if (previous != null) {
+                previous.next = current;
+            }
+            previous = current;
+            current = new ListNode();
+        }
+        previous.next = null;
+        return root;
     }
 }
 

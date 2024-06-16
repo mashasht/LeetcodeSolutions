@@ -5,65 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/AddDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/BuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ExcelTitleToNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/FlipGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/GuessNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsPerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MissingRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MovingAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/NimGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PalindromePermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PowerOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RansomNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReplaceWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReverseVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ShortestWordDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/StrobogrammaticNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SubstringsThatBeginAndEndWithTheSameLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidPalindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/isUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddDigitsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BuyAndSellStockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelTitleToNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlipGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GuessNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IsPerfectSquareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IsomorphicStringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LongestCommonSubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MeetingRoomsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MissingNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MissingRangesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MoveZeroesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NimGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PowerOfThreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReplaceWordsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShortestWordDistanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SingleNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SubstringsThatBeginAndEndWithTheSameLetterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ValidPalindromTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/BoxesInWarehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ConvertToHexadecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/StringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ThirdMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidWordAbbreviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BoxesInWarehouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConvertToHexadecimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReverseIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringToIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidWordAbbreviationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -101,10 +60,15 @@
     "JUnit.AddDigitsTest.addDigits_38.executor": "Run",
     "JUnit.ArrayJumpsTest.hasSolutions_hasSolution_returnsTrue.executor": "Run",
     "JUnit.ArrayJumpsTest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
+    "JUnit.BoxesInWarehouseTest.maxBoxesInWarehouse_fiveBoxes_fourIn.executor": "Run",
+    "JUnit.BoxesInWarehouseTest.maxBoxesInWarehouse_fourBoxes_threeIn.executor": "Debug",
     "JUnit.BuyAndSellStockTest.buyAndSellStock_maxProfitFive.executor": "Run",
     "JUnit.ClimbingStairsTest.climbStairs_threeWays.executor": "Run",
     "JUnit.ClimbingStairsTest.climbStairs_twoWays.executor": "Run",
     "JUnit.ClimbingStairsTest.executor": "Run",
+    "JUnit.ConvertToHexadecimalTest.executor": "Run",
+    "JUnit.ConvertToHexadecimalTest.toHex_26_1a.executor": "Run",
+    "JUnit.ConvertToHexadecimalTest.toHex_negative_ffffffff.executor": "Run",
     "JUnit.ExcelTitleToNumberTest.titleToNumber_AB.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
@@ -140,6 +104,8 @@
     "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsFour.executor": "Run",
     "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsSix.executor": "Run",
     "JUnit.LengthOfTheLastWordTest.lengthOfTheLastWord_returnsZero.executor": "Run",
+    "JUnit.ListNodeTest.addTwoNumbers_708.executor": "Run",
+    "JUnit.ListNodeTest.addTwoNumbers_9999.executor": "Run",
     "JUnit.ListNodeTest.deleteDuplicates_oneDuplicate_returnsOneElements.executor": "Run",
     "JUnit.ListNodeTest.deleteDuplicates_twoDuplicate_returnsThreeElements.executor": "Run",
     "JUnit.ListNodeTest.hasCycle_twoElements_returnsFalse.executor": "Run",
@@ -187,6 +153,10 @@
     "JUnit.RemoveElementTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
     "JUnit.RemoveElementTest.testMultiply.executor": "Run",
     "JUnit.ReplaceWordsTest.replaceWords_cattle.executor": "Run",
+    "JUnit.ReverseIntegerTest.executor": "Run",
+    "JUnit.ReverseIntegerTest.reverseInteger_negative_nooverflow.executor": "Run",
+    "JUnit.ReverseIntegerTest.reverseInteger_no_overflow.executor": "Run",
+    "JUnit.ReverseIntegerTest.reverseInteger_overflow.executor": "Run",
     "JUnit.SearchInsertPositionTest.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastIndex.executor": "Run",
@@ -199,6 +169,9 @@
     "JUnit.SquareRootTest.squareRoot_four_returnsTwo.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_one_returnsOne.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_zero_returnsOne.executor": "Debug",
+    "JUnit.StringToIntegerTest.myAtoi_42.executor": "Run",
+    "JUnit.StringToIntegerTest.myAtoi_minus42.executor": "Run",
+    "JUnit.StringToIntegerTest.myAtoi_overflow.executor": "Run",
     "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.executor": "Run",
     "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.numberOfSubstrings_nine.executor": "Run",
     "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.numberOfSubstrings_seven.executor": "Run",
@@ -218,6 +191,9 @@
     "JUnit.ValidPalindromTest.isPalindrom_empty_positive.executor": "Run",
     "JUnit.ValidPalindromTest.isPalindrom_panama_positive.executor": "Run",
     "JUnit.ValidPalindromTest.isPalindrom_race_negative.executor": "Run",
+    "JUnit.ValidWordAbbreviationTest.validWordAbbreviation_apple_false.executor": "Run",
+    "JUnit.ValidWordAbbreviationTest.validWordAbbreviation_internatlization2_true.executor": "Run",
+    "JUnit.ValidWordAbbreviationTest.validWordAbbreviation_internatlization_true.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -229,50 +205,51 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GuessNumberTest">
-    <configuration name="GuessNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringToIntegerTest.myAtoi_overflow">
+    <configuration name="ReverseIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="ReverseIntegerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNumberTest.guessNumber_pick2_n2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseIntegerTest.reverseInteger_negative_nooverflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
-      <option name="METHOD_NAME" value="guessNumber_pick2_n2" />
+      <option name="MAIN_CLASS_NAME" value="ReverseIntegerTest" />
+      <option name="METHOD_NAME" value="reverseInteger_negative_nooverflow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNumberTest.guessNumber_pick6_n10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringToIntegerTest.myAtoi_42" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
-      <option name="METHOD_NAME" value="guessNumber_pick6_n10" />
+      <option name="MAIN_CLASS_NAME" value="StringToIntegerTest" />
+      <option name="METHOD_NAME" value="myAtoi_42" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPerfectSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringToIntegerTest.myAtoi_minus42" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsPerfectSquareTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="StringToIntegerTest" />
+      <option name="METHOD_NAME" value="myAtoi_minus42" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPerfectSquareTest.isPerfectSquare_seventySix_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringToIntegerTest.myAtoi_overflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsPerfectSquareTest" />
-      <option name="METHOD_NAME" value="isPerfectSquare_seventySix_false" />
+      <option name="MAIN_CLASS_NAME" value="StringToIntegerTest" />
+      <option name="METHOD_NAME" value="myAtoi_overflow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GuessNumberTest" />
-        <item itemvalue="JUnit.GuessNumberTest.guessNumber_pick2_n2" />
-        <item itemvalue="JUnit.GuessNumberTest.guessNumber_pick6_n10" />
-        <item itemvalue="JUnit.IsPerfectSquareTest.isPerfectSquare_seventySix_false" />
-        <item itemvalue="JUnit.IsPerfectSquareTest" />
+        <item itemvalue="JUnit.StringToIntegerTest.myAtoi_overflow" />
+        <item itemvalue="JUnit.StringToIntegerTest.myAtoi_minus42" />
+        <item itemvalue="JUnit.StringToIntegerTest.myAtoi_42" />
+        <item itemvalue="JUnit.ReverseIntegerTest.reverseInteger_negative_nooverflow" />
+        <item itemvalue="JUnit.ReverseIntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +309,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
-          <line>48</line>
+          <line>57</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -371,11 +348,6 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestCommonSubsequence.java</url>
           <line>19</line>
           <option name="timeStamp" value="40" />
@@ -412,6 +384,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IsPerfectSquare.java</url>
           <line>9</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/BoxesInWarehouse.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/StringToInteger.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

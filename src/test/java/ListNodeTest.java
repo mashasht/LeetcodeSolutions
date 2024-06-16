@@ -87,4 +87,32 @@ public class ListNodeTest {
         assertTrue(first.isPalindrome(first));
     }
 
+    @Test
+    void addTwoNumbers_708(){
+        ListNode third1  = new ListNode(3);
+        ListNode second1  = new ListNode(4, third1);
+        ListNode first1 = new ListNode(2, second1);
+        ListNode third2  = new ListNode(4);
+        ListNode second2  = new ListNode(6, third2);
+        ListNode first2 = new ListNode(5, second2);
+        ListNode result = first2.addTwoNumbers(first1, first2);
+        assertEquals(7, result.val);
+        assertEquals(0, result.next.val);
+        assertEquals(8, result.next.next.val);
+    }
+
+    @Test
+    void addTwoNumbers_9999(){
+        ListNode second1  = new ListNode(9);
+        ListNode first1 = new ListNode(9, second1);
+        ListNode third2  = new ListNode(9);
+        ListNode second2  = new ListNode(9, third2);
+        ListNode first2 = new ListNode(9, second2);
+        ListNode result = first2.addTwoNumbers(first1, first2);
+        assertEquals(8, result.val);
+        assertEquals(9, result.next.val);
+        assertEquals(0, result.next.next.val);
+        assertEquals(1, result.next.next.next.val);
+    }
+
 }
