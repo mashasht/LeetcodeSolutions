@@ -174,6 +174,50 @@ public class ListNode {
         previous.next = null;
         return root;
     }
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode beforeRemoval = null;
+        ListNode tail = head;
+        for (int i = 0; i < n; i++) {
+            if (tail == null) {
+                return head;
+            }
+            tail = tail.next;
+        }
+        while(tail != null) {
+            tail = tail.next;
+            beforeRemoval = beforeRemoval == null ? head: beforeRemoval.next;
+        }
+        if (beforeRemoval == null) {
+            if (head != null) {
+                head = head.next;
+            }
+            return head;
+        }
+        if (beforeRemoval.next == null) {
+            return head;
+        }
+        beforeRemoval.next = beforeRemoval.next.next;
+        return head;
+    }
+// TODO: review
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode dummyNode = new ListNode();
+        ListNode prevNode = dummyNode;
+        ListNode currNode = head;
+        while(currNode != null && currNode.next != null){
+            prevNode.next = currNode.next;
+            currNode.next = prevNode.next.next;
+            prevNode.next.next = currNode;
+
+            prevNode = currNode;
+            currNode = currNode.next;
+        }
+        return dummyNode.next;
+    }
 }
 
 

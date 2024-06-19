@@ -114,5 +114,17 @@ public class ListNodeTest {
         assertEquals(0, result.next.next.val);
         assertEquals(1, result.next.next.next.val);
     }
+    @Test
+    void swapPairs_1234() {
+        ListNode fourth  = new ListNode(4);
+        ListNode third  = new ListNode(3, fourth);
+        ListNode second  = new ListNode(2, third);
+        ListNode first = new ListNode(1, second);
+        ListNode head = first.swapPairs(first);
+        assertEquals(2, head.val);
+        assertEquals(1, head.next.val);
+        assertEquals(4, head.next.next.val);
+        assertEquals(3, head.next.next.next.val);
+    }
 
 }
