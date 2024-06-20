@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/DivideTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LetterCombinationsOfPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideTwoIntegersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IntegerToRomanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LetterCombinationsOfPhoneNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchInRotatedSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ContainsDuplicate2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/FindFirstAndLastPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CombinationSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContainsDuplicate2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CountAndSayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FirstAndLastPositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HappyNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +60,13 @@
     "JUnit.ClimbingStairsTest.climbStairs_threeWays.executor": "Run",
     "JUnit.ClimbingStairsTest.climbStairs_twoWays.executor": "Run",
     "JUnit.ClimbingStairsTest.executor": "Run",
+    "JUnit.CombinationSumTest.combinationSum_seven.executor": "Debug",
+    "JUnit.ContainsDuplicate2Test.containsNearbyDuplicate_k3_true.executor": "Debug",
     "JUnit.ConvertToHexadecimalTest.executor": "Run",
     "JUnit.ConvertToHexadecimalTest.toHex_26_1a.executor": "Run",
     "JUnit.ConvertToHexadecimalTest.toHex_negative_ffffffff.executor": "Run",
+    "JUnit.CountAndSayTest.countAndSay_five.executor": "Run",
+    "JUnit.CountAndSayTest.countAndSay_four.executor": "Run",
     "JUnit.DivideTwoIntegersTest.divide_nooverflow.executor": "Run",
     "JUnit.DivideTwoIntegersTest.divide_overflow.executor": "Run",
     "JUnit.ExcelTitleToNumberTest.titleToNumber_AB.executor": "Run",
@@ -70,9 +74,12 @@
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
+    "JUnit.FirstAndLastPositionTest.searchRange_eightElements_findsRangeOfTwo.executor": "Debug",
     "JUnit.GuessNumberTest.executor": "Run",
     "JUnit.GuessNumberTest.guessNumber_pick2_n2.executor": "Debug",
     "JUnit.GuessNumberTest.guessNumber_pick6_n10.executor": "Run",
+    "JUnit.HappyNumberTest.isHappy_19.executor": "Run",
+    "JUnit.HappyNumberTest.isHappy_2.executor": "Run",
     "JUnit.IntegerToRomanTest.intToRoman_1994.executor": "Run",
     "JUnit.IntegerToRomanTest.intToRoman_3749.executor": "Run",
     "JUnit.IntegerToRomanTest.intToRoman_58.executor": "Run",
@@ -215,51 +222,52 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SearchInRotatedSortedArrayTest.search_eightElements_returnsOne">
-    <configuration name="SearchInRotatedSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ContainsDuplicate2Test.containsNearbyDuplicate_k2_false">
+    <configuration name="ContainsDuplicate2Test.containsNearbyDuplicate_k1_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInRotatedSortedArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRotatedSortedArrayTest.search_eightElements_returnsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInRotatedSortedArrayTest" />
-      <option name="METHOD_NAME" value="search_eightElements_returnsOne" />
+      <option name="MAIN_CLASS_NAME" value="ContainsDuplicate2Test" />
+      <option name="METHOD_NAME" value="containsNearbyDuplicate_k1_true" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArrayTest.search_sevenElements_returnsMinusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainsDuplicate2Test.containsNearbyDuplicate_k2_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInRotatedSortedArrayTest" />
-      <option name="METHOD_NAME" value="search_sevenElements_returnsMinusOne" />
+      <option name="MAIN_CLASS_NAME" value="ContainsDuplicate2Test" />
+      <option name="METHOD_NAME" value="containsNearbyDuplicate_k2_false" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArrayTest.search_sevenElements_returnsSeven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainsDuplicate2Test.containsNearbyDuplicate_k3_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInRotatedSortedArrayTest" />
-      <option name="METHOD_NAME" value="search_sevenElements_returnsSeven" />
+      <option name="MAIN_CLASS_NAME" value="ContainsDuplicate2Test" />
+      <option name="METHOD_NAME" value="containsNearbyDuplicate_k3_true" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArrayTest.search_sevenElements_returnsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HappyNumberTest.isHappy_19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchInRotatedSortedArrayTest" />
-      <option name="METHOD_NAME" value="search_sevenElements_returnsZero" />
+      <option name="MAIN_CLASS_NAME" value="HappyNumberTest" />
+      <option name="METHOD_NAME" value="isHappy_19" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HappyNumberTest.isHappy_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HappyNumberTest" />
+      <option name="METHOD_NAME" value="isHappy_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -267,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchInRotatedSortedArrayTest.search_eightElements_returnsOne" />
-        <item itemvalue="JUnit.SearchInRotatedSortedArrayTest.search_sevenElements_returnsMinusOne" />
-        <item itemvalue="JUnit.SearchInRotatedSortedArrayTest" />
-        <item itemvalue="JUnit.SearchInRotatedSortedArrayTest.search_sevenElements_returnsSeven" />
-        <item itemvalue="JUnit.SearchInRotatedSortedArrayTest.search_sevenElements_returnsZero" />
+        <item itemvalue="JUnit.ContainsDuplicate2Test.containsNearbyDuplicate_k2_false" />
+        <item itemvalue="JUnit.ContainsDuplicate2Test.containsNearbyDuplicate_k1_true" />
+        <item itemvalue="JUnit.ContainsDuplicate2Test.containsNearbyDuplicate_k3_true" />
+        <item itemvalue="JUnit.HappyNumberTest.isHappy_2" />
+        <item itemvalue="JUnit.HappyNumberTest.isHappy_19" />
       </list>
     </recent_temporary>
   </component>
@@ -414,6 +422,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SearchInRotatedSortedArray.java</url>
           <line>51</line>
           <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/CombinationSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/HappyNumber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ContainsDuplicate2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
