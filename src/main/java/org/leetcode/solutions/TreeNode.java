@@ -1,7 +1,6 @@
 package org.leetcode.solutions;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -177,5 +176,27 @@ public class TreeNode {
             }
         } while (root != null);
         return closest;
+    }
+    public int countNodes(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+        if (leftHeight == rightHeight) {
+            return (int)Math.pow(leftHeight, 2) - 1;
+        }
+        int leftCount = countNodes(root.left);
+        int rightCount = countNodes(root.right);
+        return leftCount + rightCount + 1;
+    }
+
+    private int height(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+        return Math.min(leftHeight, rightHeight) + 1;
     }
 }

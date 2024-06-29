@@ -218,6 +218,45 @@ public class ListNode {
         }
         return dummyNode.next;
     }
+
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        ListNode dummy = new ListNode();
+        ListNode merged = dummy;
+        while(list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                merged.next = list1;
+                list1 = list1.next;
+            }
+            else {
+                merged.next = list2;
+                list2 = list2.next;
+            }
+            merged = merged.next;
+        }
+        merged.next = list1 != null ? list1 : list2;
+        return dummy.next;
+    }
+
+//    public ListNode reverseBetween(ListNode head, int left, int right) {
+//        ListNode dummy = new ListNode();
+//        dummy.next = head;
+//        ListNode current = dummy;
+//        ListNode beforeLeft = null;
+//        ListNode rightNode = null;
+//        while (current != null) {
+//            if (current.next != null && current.next.val == left) {
+//                beforeLeft = current;
+//            }
+//            if (current.val == right) {
+//                rightNode = current;
+//            }
+//            current = current.next;
+//        }
+//        ListNode leftNode =  beforeLeft.next;
+//        ListNode afterRightNode =  rightNode.next;
+//        beforeLeft.next = rightNode;
+//        leftNode.next = afterRightNode;
+//    }
 }
 
 

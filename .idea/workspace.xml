@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ProductExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductExceptSelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrappingRainWaterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/CopyRandomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestConsecutiveSequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MinimumSubarraySumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +150,11 @@
     "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_threeArrays_threeCommon.executor": "Run",
     "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_twoArrays_noneCommon.executor": "Debug",
     "JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence_twoArrays_twoCommon.executor": "Run",
+    "JUnit.LongestConsecutiveSequenceTest.executor": "Run",
+    "JUnit.LongestConsecutiveSequenceTest.longestConsecutive_3.executor": "Run",
+    "JUnit.LongestConsecutiveSequenceTest.longestConsecutive_4.executor": "Run",
+    "JUnit.LongestConsecutiveSequenceTest.longestConsecutive_5.executor": "Run",
+    "JUnit.LongestConsecutiveSequenceTest.longestConsecutive_9.executor": "Run",
     "JUnit.LongestIncreasingSubsequenceTest.lengthOfLIS_101.executor": "Run",
     "JUnit.LongestIncreasingSubsequenceTest.lengthOfLIS_323.executor": "Run",
     "JUnit.LongestPalindromicSubstringTest.executor": "Run",
@@ -164,6 +169,7 @@
     "JUnit.MaxSubArrayTest.maxSubArray_hasNegativeSubarray_returnsSum.executor": "Run",
     "JUnit.MeetingRoomsTest.canAttendMeetings_twoMeetings_true.executor": "Debug",
     "JUnit.MergeSortedArrayTest.merge_OneToSix.executor": "Run",
+    "JUnit.MinimumSubarraySumTest.minSubArrayLen_8.executor": "Debug",
     "JUnit.MissingNumberTest.missingNumber_three_twoMissing.executor": "Run",
     "JUnit.MissingRangesTest.findMissingRanges_returnsFourRanges.executor": "Run",
     "JUnit.MoveZeroesTest.moveZeroes_fiveElements_twoZeros.executor": "Run",
@@ -260,51 +266,51 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TrappingRainWaterTest.trap_9">
-    <configuration name="ProductExceptSelfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_5">
+    <configuration name="LongestConsecutiveSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductExceptSelfTest" />
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductExceptSelfTest.productExceptSelf_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductExceptSelfTest" />
-      <option name="METHOD_NAME" value="productExceptSelf_negative" />
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
+      <option name="METHOD_NAME" value="longestConsecutive_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap_6" />
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
+      <option name="METHOD_NAME" value="longestConsecutive_4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap_9" />
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
+      <option name="METHOD_NAME" value="longestConsecutive_5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.minimumTotal_11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
-      <option name="METHOD_NAME" value="minimumTotal_11" />
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
+      <option name="METHOD_NAME" value="longestConsecutive_9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -312,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrappingRainWaterTest.trap_9" />
-        <item itemvalue="JUnit.TrappingRainWaterTest.trap_6" />
-        <item itemvalue="JUnit.TriangleTest.minimumTotal_11" />
-        <item itemvalue="JUnit.ProductExceptSelfTest" />
-        <item itemvalue="JUnit.ProductExceptSelfTest.productExceptSelf_negative" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_5" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_3" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_4" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_9" />
       </list>
     </recent_temporary>
   </component>
@@ -499,6 +505,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/CoinChange.java</url>
           <line>19</line>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
