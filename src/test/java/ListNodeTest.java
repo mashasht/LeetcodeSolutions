@@ -127,4 +127,36 @@ public class ListNodeTest {
         assertEquals(3, head.next.next.next.val);
     }
 
+    @Test
+    void reverseBetween_12345(){
+        ListNode fifth  = new ListNode(5);
+        ListNode fourth  = new ListNode(4, fifth);
+        ListNode third  = new ListNode(3, fourth);
+        ListNode second  = new ListNode(2, third);
+        ListNode first = new ListNode(1, second);
+        ListNode head = first.reverseBetween(first, 2, 4);
+        assertEquals(1, head.val);
+        assertEquals(4, head.next.val);
+        assertEquals(3, head.next.next.val);
+        assertEquals(2, head.next.next.next.val);
+        assertEquals(5, head.next.next.next.next.val);
+
+    }
+
+    @Test
+    void rotateRight_2places() {
+        ListNode fifth  = new ListNode(5);
+        ListNode fourth  = new ListNode(4, fifth);
+        ListNode third  = new ListNode(3, fourth);
+        ListNode second  = new ListNode(2, third);
+        ListNode first = new ListNode(1, second);
+        ListNode head = first.rotateRight(first, 2);
+        assertEquals(4, head.val);
+        assertEquals(5, head.next.val);
+        assertEquals(1, head.next.next.val);
+        assertEquals(2, head.next.next.next.val);
+        assertEquals(3, head.next.next.next.next.val);
+
+    }
+
 }

@@ -5,16 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/CopyRandomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LongestConsecutiveSequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MinimumSubarraySumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/GameOfLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestSubstringWithAtMostTwoDistinctCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumNumberOfArrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SimplifyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SubstringWithConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ZigzagConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EvaluateReversePolishNotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GameOfLifeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/InsertIntervalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestSubstringWithAtMostTwoDistinctCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MergeIntervalsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MinimumNumberOfArrowsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MinimumWindowSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RotateImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SimplifyPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpiralMatrixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SubstringWithConcatenationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidSudokuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ZigzagConversionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +105,19 @@
     "JUnit.CountAndSayTest.countAndSay_four.executor": "Run",
     "JUnit.DivideTwoIntegersTest.divide_nooverflow.executor": "Run",
     "JUnit.DivideTwoIntegersTest.divide_overflow.executor": "Run",
+    "JUnit.EvaluateReversePolishNotationTest.evalRPN_22.executor": "Run",
+    "JUnit.EvaluateReversePolishNotationTest.evalRPN_6.executor": "Run",
+    "JUnit.EvaluateReversePolishNotationTest.evalRPN_9.executor": "Run",
+    "JUnit.EvaluateReversePolishNotationTest.executor": "Run",
     "JUnit.ExcelTitleToNumberTest.titleToNumber_AB.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_noOccurences_returnsNone.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.findFirstIndex_twoOccurences_returnsFirst.executor": "Run",
     "JUnit.FindIndexOfFirstOccurenceTest.removeElementInPlace_twoElements_returnsOne.executor": "Run",
     "JUnit.FirstAndLastPositionTest.searchRange_eightElements_findsRangeOfTwo.executor": "Debug",
+    "JUnit.GameOfLifeTest.executor": "Run",
+    "JUnit.GameOfLifeTest.gameOfLife_4cells.executor": "Run",
+    "JUnit.GameOfLifeTest.gameOfLife_9cells.executor": "Run",
     "JUnit.GuessNumberTest.executor": "Run",
     "JUnit.GuessNumberTest.guessNumber_pick2_n2.executor": "Debug",
     "JUnit.GuessNumberTest.guessNumber_pick6_n10.executor": "Run",
@@ -96,6 +127,10 @@
     "JUnit.HIndexTest.hIndex_3.executor": "Run",
     "JUnit.HappyNumberTest.isHappy_19.executor": "Run",
     "JUnit.HappyNumberTest.isHappy_2.executor": "Run",
+    "JUnit.InsertIntervalTest.executor": "Run",
+    "JUnit.InsertIntervalTest.insert_1element.executor": "Run",
+    "JUnit.InsertIntervalTest.insert_2elements.executor": "Run",
+    "JUnit.InsertIntervalTest.insert_5elements.executor": "Run",
     "JUnit.IntegerToRomanTest.intToRoman_1994.executor": "Run",
     "JUnit.IntegerToRomanTest.intToRoman_3749.executor": "Run",
     "JUnit.IntegerToRomanTest.intToRoman_58.executor": "Run",
@@ -142,7 +177,9 @@
     "JUnit.ListNodeTest.isPalindrome_returnsFalse.executor": "Run",
     "JUnit.ListNodeTest.isPalindrome_returnsTrue.executor": "Run",
     "JUnit.ListNodeTest.plusOne_threeElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.ListNodeTest.reverseBetween_12345.executor": "Run",
     "JUnit.ListNodeTest.reverseList_returnsReversedList.executor": "Run",
+    "JUnit.ListNodeTest.rotateRight_2places.executor": "Run",
     "JUnit.ListNodeTest.swapPairs_1234.executor": "Run",
     "JUnit.LoggerTest.printSomeMessages.executor": "Run",
     "JUnit.LongestCommonSubsequenceTest.executor": "Run",
@@ -164,12 +201,26 @@
     "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeChars_returnsThreeChars.executor": "Run",
     "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeChars_returnsTwoChars.executor": "Run",
     "JUnit.LongestPalindromicSubstringTest.longestPalindromicSubstring_threeElements_returnsSameArrayPlusOne.executor": "Run",
+    "JUnit.LongestSubstringWithAtMostTwoDistinctCharactersTest.lengthOfLongestSubstringTwoDistinct_aabbb.executor": "Run",
+    "JUnit.LongestSubstringWithAtMostTwoDistinctCharactersTest.lengthOfLongestSubstringTwoDistinct_ece.executor": "Run",
     "JUnit.MaxConsecutiveOnesTest.findMaxConsecutiveOnes_3.executor": "Run",
     "JUnit.MaxSubArrayTest.hasSolutions_noSolutions_returnsFalse.executor": "Run",
     "JUnit.MaxSubArrayTest.maxSubArray_hasNegativeSubarray_returnsSum.executor": "Run",
     "JUnit.MeetingRoomsTest.canAttendMeetings_twoMeetings_true.executor": "Debug",
+    "JUnit.MergeIntervalsTest.merge_3.executor": "Run",
     "JUnit.MergeSortedArrayTest.merge_OneToSix.executor": "Run",
-    "JUnit.MinimumSubarraySumTest.minSubArrayLen_8.executor": "Debug",
+    "JUnit.MinimumNumberOfArrowsTest.executor": "Run",
+    "JUnit.MinimumNumberOfArrowsTest.findMinArrowShots_2.executor": "Run",
+    "JUnit.MinimumNumberOfArrowsTest.findMinArrowShots_22.executor": "Run",
+    "JUnit.MinimumNumberOfArrowsTest.findMinArrowShots_3.executor": "Run",
+    "JUnit.MinimumSubarraySumTest.executor": "Run",
+    "JUnit.MinimumSubarraySumTest.minSubArrayLen_8.executor": "Run",
+    "JUnit.MinimumWindowSubstringTest.executor": "Run",
+    "JUnit.MinimumWindowSubstringTest.minWindow_ABC.executor": "Debug",
+    "JUnit.MinimumWindowSubstringTest.minWindow_a.executor": "Run",
+    "JUnit.MinimumWindowSubstringTest.minWindow_aa.executor": "Run",
+    "JUnit.MinimumWindowSubstringTest.minWindow_ab.executor": "Run",
+    "JUnit.MinimumWindowSubstringTest.minWindow_abcdd.executor": "Debug",
     "JUnit.MissingNumberTest.missingNumber_three_twoMissing.executor": "Run",
     "JUnit.MissingRangesTest.findMissingRanges_returnsFourRanges.executor": "Run",
     "JUnit.MoveZeroesTest.moveZeroes_fiveElements_twoZeros.executor": "Run",
@@ -204,6 +255,7 @@
     "JUnit.ReverseIntegerTest.reverseInteger_overflow.executor": "Run",
     "JUnit.RotateArrayTest.rotate_k2.executor": "Run",
     "JUnit.RotateArrayTest.rotate_k3.executor": "Run",
+    "JUnit.RotateImageTest.rotateImage_123.executor": "Run",
     "JUnit.SearchInRotatedSortedArrayTest.executor": "Run",
     "JUnit.SearchInRotatedSortedArrayTest.search_eightElements_returnsOne.executor": "Run",
     "JUnit.SearchInRotatedSortedArrayTest.search_sevenElements_returnsFour.executor": "Run",
@@ -216,7 +268,16 @@
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberDoesntExist_returnsLastPlusOneIndex.executor": "Run",
     "JUnit.SearchInsertPositionTest.searchInsertPosition_numberExists_returnsIndex.executor": "Run",
     "JUnit.ShortestWordDistanceTest.shortestDistance_codingPractice.executor": "Run",
+    "JUnit.SimplifyPathTest.simplifyPath_abc.executor": "Run",
+    "JUnit.SimplifyPathTest.simplifyPath_back.executor": "Run",
+    "JUnit.SimplifyPathTest.simplifyPath_c.executor": "Run",
+    "JUnit.SimplifyPathTest.simplifyPath_home.executor": "Run",
+    "JUnit.SimplifyPathTest.simplifyPath_home_foo.executor": "Run",
+    "JUnit.SimplifyPathTest.simplifyPath_pictures.executor": "Run",
     "JUnit.SingleNumberTest.singleNumber_returnFour.executor": "Run",
+    "JUnit.SpiralMatrixTest.executor": "Run",
+    "JUnit.SpiralMatrixTest.spiralOrder_1234.executor": "Run",
+    "JUnit.SpiralMatrixTest.spiralOrder_9101112.executor": "Debug",
     "JUnit.SquareRootTest.executor": "Run",
     "JUnit.SquareRootTest.squareRoot_eight_returnsTwo.executor": "Debug",
     "JUnit.SquareRootTest.squareRoot_four_returnsTwo.executor": "Run",
@@ -225,10 +286,21 @@
     "JUnit.StringToIntegerTest.myAtoi_42.executor": "Run",
     "JUnit.StringToIntegerTest.myAtoi_minus42.executor": "Run",
     "JUnit.StringToIntegerTest.myAtoi_overflow.executor": "Run",
+    "JUnit.SubstringWithConcatenationTest.executor": "Run",
+    "JUnit.SubstringWithConcatenationTest.findSubstring_bar_foo_the.executor": "Debug",
+    "JUnit.SubstringWithConcatenationTest.findSubstring_ding_wing.executor": "Debug",
+    "JUnit.SubstringWithConcatenationTest.findSubstring_foo_bar.executor": "Debug",
+    "JUnit.SubstringWithConcatenationTest.findSubstring_word_good_best.executor": "Run",
+    "JUnit.SubstringWithConcatenationTest.findSubstring_word_good_best_good.executor": "Run",
     "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.executor": "Run",
     "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.numberOfSubstrings_nine.executor": "Run",
     "JUnit.SubstringsThatBeginAndEndWithTheSameLetterTest.numberOfSubstrings_seven.executor": "Run",
     "JUnit.TeemoAttackingTest.findPoisonedDuration_oneFour.executor": "Run",
+    "JUnit.ThreeSumTest.executor": "Run",
+    "JUnit.ThreeSumTest.threeSum_empty.executor": "Run",
+    "JUnit.ThreeSumTest.threeSum_one.executor": "Run",
+    "JUnit.ThreeSumTest.threeSum_two.executor": "Run",
+    "JUnit.ThreeSumTest.threeSum_zeros.executor": "Run",
     "JUnit.TrappingRainWaterTest.trap_6.executor": "Run",
     "JUnit.TrappingRainWaterTest.trap_9.executor": "Run",
     "JUnit.TreeNodeTest.executor": "Run",
@@ -248,6 +320,7 @@
     "JUnit.ValidPalindromTest.isPalindrom_empty_positive.executor": "Run",
     "JUnit.ValidPalindromTest.isPalindrom_panama_positive.executor": "Run",
     "JUnit.ValidPalindromTest.isPalindrom_race_negative.executor": "Run",
+    "JUnit.ValidSudokuTest.isValidSudoku_True.executor": "Run",
     "JUnit.ValidWordAbbreviationTest.validWordAbbreviation_apple_false.executor": "Run",
     "JUnit.ValidWordAbbreviationTest.validWordAbbreviation_internatlization2_true.executor": "Run",
     "JUnit.ValidWordAbbreviationTest.validWordAbbreviation_internatlization_true.executor": "Run",
@@ -255,6 +328,9 @@
     "JUnit.WordBreakTest.wordBreak_applepen.executor": "Run",
     "JUnit.WordBreakTest.wordBreak_catsandog.executor": "Run",
     "JUnit.WordBreakTest.wordBreak_leetcode.executor": "Run",
+    "JUnit.ZigzagConversionTest.convert_1.executor": "Run",
+    "JUnit.ZigzagConversionTest.convert_3.executor": "Run",
+    "JUnit.ZigzagConversionTest.convert_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -266,51 +342,51 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_5">
-    <configuration name="LongestConsecutiveSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListNodeTest.rotateRight_2places">
+    <configuration name="GameOfLifeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
+      <option name="MAIN_CLASS_NAME" value="GameOfLifeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameOfLifeTest.gameOfLife_4cells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
-      <option name="METHOD_NAME" value="longestConsecutive_3" />
+      <option name="MAIN_CLASS_NAME" value="GameOfLifeTest" />
+      <option name="METHOD_NAME" value="gameOfLife_4cells" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameOfLifeTest.gameOfLife_9cells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
-      <option name="METHOD_NAME" value="longestConsecutive_4" />
+      <option name="MAIN_CLASS_NAME" value="GameOfLifeTest" />
+      <option name="METHOD_NAME" value="gameOfLife_9cells" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNodeTest.reverseBetween_12345" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
-      <option name="METHOD_NAME" value="longestConsecutive_5" />
+      <option name="MAIN_CLASS_NAME" value="ListNodeTest" />
+      <option name="METHOD_NAME" value="reverseBetween_12345" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNodeTest.rotateRight_2places" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequenceTest" />
-      <option name="METHOD_NAME" value="longestConsecutive_9" />
+      <option name="MAIN_CLASS_NAME" value="ListNodeTest" />
+      <option name="METHOD_NAME" value="rotateRight_2places" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_5" />
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest" />
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_3" />
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_4" />
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive_9" />
+        <item itemvalue="JUnit.ListNodeTest.rotateRight_2places" />
+        <item itemvalue="JUnit.ListNodeTest.reverseBetween_12345" />
+        <item itemvalue="JUnit.GameOfLifeTest.gameOfLife_9cells" />
+        <item itemvalue="JUnit.GameOfLifeTest" />
+        <item itemvalue="JUnit.GameOfLifeTest.gameOfLife_4cells" />
       </list>
     </recent_temporary>
   </component>
@@ -367,11 +443,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SquareRoot.java</url>
           <line>7</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestPalindromicSubstring.java</url>
@@ -507,9 +578,44 @@
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MergeIntervals.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/InsertInterval.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/InsertInterval.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/EvaluateReversePolishNotation.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="116" />
+          <line>16</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SubstringWithConcatenation.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ListNodeTest.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ListNodeTest.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

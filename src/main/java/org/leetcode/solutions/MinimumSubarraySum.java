@@ -4,14 +4,15 @@ import java.util.Arrays;
 
 public class MinimumSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
-        Arrays.sort(nums);
-        int sum = 0;
-        for (int i = nums.length - 1; i >= 0; i--) {
-            sum += nums[i];
-            if (sum >= target) {
-                return nums.length - i;
+        int left = 0, right = 0, sumOfCurrentWindow = 0;
+        int res = Integer.MAX_VALUE;
+        for (; right < nums.length; right++) {
+            sumOfCurrentWindow += nums[right];
+            while (sumOfCurrentWindow >= target) {
+                res = Math.min(res, right - left + 1);
+                sumOfCurrentWindow -= nums[left++];
             }
         }
-        return 0;
+        return res == Integer.MAX_VALUE ? 0 : res;
     }
 }

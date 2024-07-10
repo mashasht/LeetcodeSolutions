@@ -1,5 +1,8 @@
 package org.leetcode.solutions;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 
 public class ListNode {
@@ -184,9 +187,9 @@ public class ListNode {
             }
             tail = tail.next;
         }
-        while(tail != null) {
+        while (tail != null) {
             tail = tail.next;
-            beforeRemoval = beforeRemoval == null ? head: beforeRemoval.next;
+            beforeRemoval = beforeRemoval == null ? head : beforeRemoval.next;
         }
         if (beforeRemoval == null) {
             if (head != null) {
@@ -200,7 +203,8 @@ public class ListNode {
         beforeRemoval.next = beforeRemoval.next.next;
         return head;
     }
-// TODO: review
+
+    // TODO: review
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -208,7 +212,7 @@ public class ListNode {
         ListNode dummyNode = new ListNode();
         ListNode prevNode = dummyNode;
         ListNode currNode = head;
-        while(currNode != null && currNode.next != null){
+        while (currNode != null && currNode.next != null) {
             prevNode.next = currNode.next;
             currNode.next = prevNode.next.next;
             prevNode.next.next = currNode;
@@ -222,12 +226,11 @@ public class ListNode {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode();
         ListNode merged = dummy;
-        while(list1 != null && list2 != null) {
+        while (list1 != null && list2 != null) {
             if (list1.val < list2.val) {
                 merged.next = list1;
                 list1 = list1.next;
-            }
-            else {
+            } else {
                 merged.next = list2;
                 list2 = list2.next;
             }
@@ -237,26 +240,102 @@ public class ListNode {
         return dummy.next;
     }
 
-//    public ListNode reverseBetween(ListNode head, int left, int right) {
-//        ListNode dummy = new ListNode();
-//        dummy.next = head;
-//        ListNode current = dummy;
-//        ListNode beforeLeft = null;
-//        ListNode rightNode = null;
-//        while (current != null) {
-//            if (current.next != null && current.next.val == left) {
-//                beforeLeft = current;
-//            }
-//            if (current.val == right) {
-//                rightNode = current;
-//            }
-//            current = current.next;
-//        }
-//        ListNode leftNode =  beforeLeft.next;
-//        ListNode afterRightNode =  rightNode.next;
-//        beforeLeft.next = rightNode;
-//        leftNode.next = afterRightNode;
-//    }
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if (head == null || left == right) {
+            return head;
+        }
+
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = dummy;
+
+        for (int i = 0; i < left - 1; i++) {
+            prev = prev.next;
+        }
+
+        ListNode cur = prev.next;
+
+        for (int i = 0; i < right - left; i++) {
+            ListNode temp = cur.next;
+            cur.next = temp.next;
+            temp.next = prev.next;
+            prev.next = temp;
+        }
+        return dummy.next;
+    }
+
+    public ListNode deleteDuplicates2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode();
+        dummy.next = head;
+        ListNode current = head;
+        ListNode previous = dummy;
+        boolean foundDuplicates = false;
+        while (current != null) {
+            while (current.next != null && current.val == current.next.val) {
+                current = current.next;
+                foundDuplicates = true;
+            }
+            if (foundDuplicates) {
+                previous.next = current.next;
+            }
+            previous = previous.next;
+            current = current.next;
+        }
+        return head;
+    }
+
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        int length = 0;
+        ListNode current = head;
+        while (current != null) {
+            current = current.next;
+            length++;
+        }
+        for (int i = 0; i < k % length; i++) {
+            current = head;
+            while(current.next != null && current.next.next != null) {
+                current = current.next;
+            }
+            current.next.next = head;
+            head = current.next;
+            current.next = null;
+        }
+        return head;
+    }
+
+    public ListNode partition(ListNode head, int x) {
+        List<Integer> lessThan = new LinkedList<>();
+        List<Integer> moreThan = new LinkedList<>();
+        ListNode current = head;
+        while(current != null) {
+            if (current.val < x) {
+                lessThan.add(current.val);
+            }
+            else {
+                moreThan.add(current.val);
+            }
+            current = current.next;
+        }
+        current = head;
+        while(current != null) {
+            if (!lessThan.isEmpty()) {
+                current.val = lessThan.getLast();
+                lessThan.removeLast();
+            }
+            else {
+                current.val = moreThan.getLast();
+                lessThan.removeLast();
+            }
+            current = current.next;
+        }
+        return head;
+    }
 }
 
 
