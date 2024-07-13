@@ -103,4 +103,40 @@ public class TreeNodeTest {
         assertEquals(5, treeNode.minDepth(root));
     }
 
+    @Test
+    void findMode_122(){
+        TreeNode root = new TreeNode(1);
+        root.right = new TreeNode(2);
+        root.right.left = new TreeNode(2);
+        assertArrayEquals(new int[]{2}, treeNode.findMode(root));
+    }
+
+    @Test
+    void buildTree_3920(){
+        treeNode.buildTree(new int[]{3,9,20,15,7}, new int[]{9,3,15,20,7});
+    }
+
+    @Test
+    void sumNumbers_123(){
+        TreeNode root = new TreeNode(1);
+        root.right = new TreeNode(3);
+        root.left = new TreeNode(2);
+        assertEquals(25, treeNode.sumNumbers(root));
+    }
+
+    @Test
+    void maxPathSum_negative(){
+        TreeNode root = new TreeNode(-3);
+        assertEquals(-3, treeNode.maxPathSum(root));
+    }
+
+    @Test
+    void maxPathSum_threeElements(){
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(-2);
+        root.right = new TreeNode(3);
+        assertEquals(4, treeNode.maxPathSum(root));
+    }
+
+
 }

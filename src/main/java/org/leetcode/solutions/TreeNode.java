@@ -1,13 +1,13 @@
 package org.leetcode.solutions;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
+    Map<Integer, Integer> inorderMap = new HashMap<>();
+
     public TreeNode() {}
     public TreeNode(int val) { this.val = val; }
     public TreeNode(int val, TreeNode left, TreeNode right) {
@@ -198,5 +198,196 @@ public class TreeNode {
         int leftHeight = height(root.left);
         int rightHeight = height(root.right);
         return Math.min(leftHeight, rightHeight) + 1;
+    }
+
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new LinkedList<>();
+        if (root == null) {
+            return result;
+        }
+        result.add(root.val);
+        result.addAll(preorderTraversal(root.left));
+        result.addAll(preorderTraversal(root.right));
+        return result;
+    }
+
+    public List<String> binaryTreePaths(TreeNode root) {
+        return returnPath(root, new StringBuilder(), new LinkedList<>());
+    }
+
+    private List<String> returnPath(TreeNode root, StringBuilder path, List<String> result) {
+        if (!path.isEmpty()) {
+            path.append("->");
+        }
+        path.append(root.val);
+        if (root.left != null) {
+            returnPath(root.left, new StringBuilder(path), result);
+        }
+        if (root.right != null) {
+            returnPath(root.right, new StringBuilder(path), result);
+        }
+        if (root.left == null && root.right == null) {
+            result.add(path.toString());
+        }
+        return result;
+    }
+
+    public int[] findMode(TreeNode root) {
+        Map<Integer, Integer> occurrences = countOccurrences(root, new HashMap<>());
+        int maxOccurences = 0;
+        List<Integer> modes = new LinkedList<>();
+        for (int key: occurrences.keySet()) {
+            if (occurrences.get(key) > maxOccurences) {
+                maxOccurences = occurrences.get(key);
+                modes.clear();
+                modes.add(key);
+                continue;
+            }
+            if (occurrences.get(key) == maxOccurences) {
+                modes.add(key);
+            }
+        }
+        return modes.stream().mapToInt(Number::intValue).toArray();
+    }
+
+    private Map<Integer, Integer> countOccurrences(TreeNode root, Map<Integer, Integer> result) {
+        if (root == null) {
+            return result;
+        }
+        result.put(root.val, result.getOrDefault(root.val, 0) + 1);
+        countOccurrences(root.left, result);
+        countOccurrences(root.right, result);
+        return result;
+    }
+
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        for (int i = 0; i < inorder.length; i++) {
+            inorderMap.put(inorder[i], i);
+        }
+        return constructTree(preorder, 0, 0, inorder.length - 1);
+    }
+
+    private TreeNode constructTree(int[] preorder, int preorderIndex, int left, int right) {
+        if (left > right) {
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[preorderIndex]);
+        if (left > inorderMap.get(root.val) - 1) {
+            root.left = null;
+        }
+        else {
+            preorderIndex++;
+            root.left = constructTree(preorder, preorderIndex, left, inorderMap.get(root.val) - 1);
+        }
+        if (inorderMap.get(root.val) + 1 > right) {
+            root.right = null;
+        }
+        else {
+            preorderIndex++;
+            root.right = constructTree(preorder, preorderIndex, inorderMap.get(root.val) + 1, right);
+        }
+        return root;
+    }
+
+    public void flatten(TreeNode root) {
+        flattenToList(root);
+    }
+    private TreeNode flattenToList(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+        TreeNode left = flattenToList(root.left);
+        TreeNode right = flattenToList(root.right);
+        if (left != null) {
+            root.right = left;
+            if (right != null) {
+                TreeNode current = root.right;
+                while (current.right != null) {
+                    current = current.right;
+                }
+                current.right = right;
+            }
+        }
+        return root;
+    }
+
+    public int sumNumbers(TreeNode root) {
+        return sumPath(root, 0);
+    }
+
+    private int sumPath(TreeNode root, int intermediateResult) {
+        if (root.left == null && root.right == null) {
+            return intermediateResult * 10 + root.val;
+        }
+        int leftResult = sumPath(root.left, intermediateResult * 10 + root.val);
+        int rightResult = sumPath(root.right, intermediateResult * 10 + root.val);
+
+        return leftResult + rightResult;
+    }
+
+    int maxPathSum = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode root) {
+        maxPathHelper(root);
+        return maxPathSum;
+    }
+    private int maxPathHelper(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = Math.max(maxPathHelper(root.left), 0);
+        int right = Math.max(maxPathHelper(root.right), 0);
+        maxPathSum = Math.max(maxPathSum, left + right + root.val);
+        return Math.max(left + root.val, right + root.val);
+    }
+
+    public List<Integer> rightSideView(TreeNode root) {
+        List<Integer> result = new LinkedList<>();
+        if (root == null) {
+            return result;
+        }
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int queueSize = queue.size();
+            TreeNode current = null;
+            for (int i = 0; i < queueSize; i++) {
+                current = queue.poll();
+                if (current != null) {
+                    queue.offer(current.left);
+                    queue.offer(current.right);
+                }
+            }
+            if (current != null) {
+                result.add(current.val);
+            }
+        }
+        return result;
+    }
+
+    public List<Double> averageOfLevels(TreeNode root) {
+        List<Double> result = new LinkedList<>();
+        if (root == null) {
+            return result;
+        }
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int queueSize = queue.size();
+            int nodeCount = 0;
+            int sum = 0;
+            for (int i = 0; i < queueSize; i++) {
+                TreeNode current = queue.poll();
+                nodeCount++;
+                sum += current.val;
+                if (current.left != null) {
+                    queue.offer(current.left);
+                }
+                if (current.right != null) {
+                    queue.offer(current.right);
+                }
+                result.add((double) sum / nodeCount);
+            }
+        }
+        return result;
     }
 }

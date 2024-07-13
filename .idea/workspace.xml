@@ -5,40 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b776499-5df5-45df-aefa-0f776d4b4be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/GameOfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LongestSubstringWithAtMostTwoDistinctCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumNumberOfArrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SetMatrixZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SimplifyPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/SubstringWithConcatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EvaluateReversePolishNotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GameOfLifeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InsertIntervalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LongestSubstringWithAtMostTwoDistinctCharactersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MergeIntervalsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MinimumNumberOfArrowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MinimumWindowSubstringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RotateImageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SimplifyPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpiralMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SubstringWithConcatenationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ValidSudokuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ZigzagConversionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PopulateNextRightPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PopulateNextRightPointerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/MinimumSubarraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +201,7 @@
     "JUnit.NimGameTest.canWin_Five_True.executor": "Run",
     "JUnit.NimGameTest.canWin_Four_True.executor": "Run",
     "JUnit.NimGameTest.executor": "Run",
+    "JUnit.PopulateNextRightPointerTest.connect_1234.executor": "Run",
     "JUnit.PowerOfThreeTest.isPowerOfThree_negative_false.executor": "Debug",
     "JUnit.PowerOfThreeTest.isPowerOfThree_twentyseven_true.executor": "Run",
     "JUnit.ProductExceptSelfTest.executor": "Run",
@@ -303,12 +276,17 @@
     "JUnit.ThreeSumTest.threeSum_zeros.executor": "Run",
     "JUnit.TrappingRainWaterTest.trap_6.executor": "Run",
     "JUnit.TrappingRainWaterTest.trap_9.executor": "Run",
+    "JUnit.TreeNodeTest.buildTree_3920.executor": "Run",
     "JUnit.TreeNodeTest.executor": "Run",
+    "JUnit.TreeNodeTest.findMode_122.executor": "Debug",
     "JUnit.TreeNodeTest.isSymmetric_nineNodes.executor": "Run",
     "JUnit.TreeNodeTest.maxDepth_nineNodes.executor": "Run",
+    "JUnit.TreeNodeTest.maxPathSum_negative.executor": "Run",
+    "JUnit.TreeNodeTest.maxPathSum_threeElements.executor": "Run",
     "JUnit.TreeNodeTest.minDepth_five.executor": "Run",
     "JUnit.TreeNodeTest.sameTree_twoNodes_differentStructure.executor": "Run",
     "JUnit.TreeNodeTest.sameTree_twoNodes_sameStructure.executor": "Run",
+    "JUnit.TreeNodeTest.sumNumbers_123.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_fiveNodes_returnsFiveElements.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_threeNodes_returnsThreeElements.executor": "Run",
     "JUnit.TreeNodeTest.visitInorder_twoNodes_returnsTwoElements.executor": "Run",
@@ -342,51 +320,52 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ListNodeTest.rotateRight_2places">
-    <configuration name="GameOfLifeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TreeNodeTest.maxPathSum_threeElements">
+    <configuration name="PopulateNextRightPointerTest.connect_1234" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameOfLifeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameOfLifeTest.gameOfLife_4cells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeSolutions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameOfLifeTest" />
-      <option name="METHOD_NAME" value="gameOfLife_4cells" />
+      <option name="MAIN_CLASS_NAME" value="PopulateNextRightPointerTest" />
+      <option name="METHOD_NAME" value="connect_1234" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameOfLifeTest.gameOfLife_9cells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.buildTree_3920" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameOfLifeTest" />
-      <option name="METHOD_NAME" value="gameOfLife_9cells" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="buildTree_3920" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListNodeTest.reverseBetween_12345" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.maxPathSum_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListNodeTest" />
-      <option name="METHOD_NAME" value="reverseBetween_12345" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="maxPathSum_negative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListNodeTest.rotateRight_2places" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.maxPathSum_threeElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeSolutions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListNodeTest" />
-      <option name="METHOD_NAME" value="rotateRight_2places" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="maxPathSum_threeElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeNodeTest.sumNumbers_123" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeSolutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeNodeTest" />
+      <option name="METHOD_NAME" value="sumNumbers_123" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -394,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListNodeTest.rotateRight_2places" />
-        <item itemvalue="JUnit.ListNodeTest.reverseBetween_12345" />
-        <item itemvalue="JUnit.GameOfLifeTest.gameOfLife_9cells" />
-        <item itemvalue="JUnit.GameOfLifeTest" />
-        <item itemvalue="JUnit.GameOfLifeTest.gameOfLife_4cells" />
+        <item itemvalue="JUnit.TreeNodeTest.maxPathSum_threeElements" />
+        <item itemvalue="JUnit.TreeNodeTest.maxPathSum_negative" />
+        <item itemvalue="JUnit.TreeNodeTest.sumNumbers_123" />
+        <item itemvalue="JUnit.PopulateNextRightPointerTest.connect_1234" />
+        <item itemvalue="JUnit.TreeNodeTest.buildTree_3920" />
       </list>
     </recent_temporary>
   </component>
@@ -616,6 +595,21 @@
           <url>file://$PROJECT_DIR$/src/test/java/ListNodeTest.java</url>
           <line>153</line>
           <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/PopulateNextRightPointer.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/solutions/TreeNode.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
